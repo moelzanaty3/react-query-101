@@ -25,13 +25,15 @@ body {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
 .header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 2rem;
 }
 
 h1 {
@@ -85,7 +87,6 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 0.5rem;
 }
 
 .repo-name {
@@ -159,4 +160,45 @@ h1 {
 	.repo-stats {
 		gap: 0.75rem;
 	}
+}
+
+.message {
+	margin: 0;
+	text-align: center;
+}
+
+.link {
+	color: #646cff;
+	text-decoration: underline;
+	cursor: pointer;
+	background: none;
+	border: none;
+	font-size: 1rem;
+	padding: 0;
+	margin: 0 0.2rem;
+}
+
+/* .search-form {
+	margin: 1rem 0;
+} */
+
+.search-form input {
+	width: 100%;
+	padding: 0.75rem 1rem;
+	font-size: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #fff;
+	color: #2c3e50;
+	transition: border-color 0.2s;
+}
+
+.search-form input:focus {
+	outline: none;
+	border-color: #646cff;
+	box-shadow: 0 0 0 2px rgba(100, 108, 255, 0.1);
+}
+
+.search-form input::placeholder {
+	color: #94a3b8;
 }
