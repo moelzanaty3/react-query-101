@@ -202,3 +202,42 @@ h1 {
 .search-form input::placeholder {
 	color: #94a3b8;
 }
+
+.issues-button {
+	margin-top: 1rem;
+	padding: 0.5rem;
+	font-size: 0.875rem;
+	border-radius: 4px;
+	background: #646cff;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.issues-section {
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: #f6f8fa;
+	border-radius: 4px;
+}
+
+.issues-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.issues-list li {
+	margin-bottom: 0.5rem;
+}
+
+.issues-list li a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.issue-meta {
+	margin-left: 0.5rem;
+	color: #666;
+	font-size: 0.875rem;
+}
